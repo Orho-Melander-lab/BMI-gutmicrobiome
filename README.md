@@ -33,5 +33,4 @@ Others: <br>
 ## 3. Contact
 For any questions or inquiries, please contact Mariam Miari at mariam.miari@med.lu.se.
 
-######################################## 
 
