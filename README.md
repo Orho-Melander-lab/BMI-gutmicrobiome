@@ -1,4 +1,4 @@
-# Body mass index as a determinant of gut microbiome composition and function: results of a comprehensive analysis of a large population 
+## Body mass index as a determinant of gut microbiome composition and function: results of a comprehensive analysis of a large population 
 
 # Study overview
 In this project, we studied the connection between BMI and gut metagenome in 3 large Swedish population cohorts (n = 9,993): The Swedish CArdioPulmonary bioImage 
