@@ -101,7 +101,7 @@ BMI <- "BMI"
 # df to store results
 results <- data.frame(
   analysis = character(),
-  outcome = character(),
+  exposure = character(),
   cohort = character(),
   model_name = character(),
   mgs = character(),
@@ -141,7 +141,7 @@ bmi_analysis <- function(formula, data, mgs_each, model_name, analysis, interact
   
   result_rows <- data.frame(
     analysis = analysis,
-    outcome = BMI,
+    exposure = BMI,
     cohort = "all_cohorts",
     model_name = model_name,
     mgs = mgs_name,
