@@ -123,7 +123,7 @@ get_stat_sig_families <- function(d,
     }else if(est_subset == 'positive_est'){
 	x <- table(d$family == families[i], d$p_adj < p_val_thr & d$est >=est_thr)
     }else if (est_subset == 'negative_est'){
-        x <- table(d$family == families[i], d$p_adj < p_val_thr & d$est < est_thr)
+	x <- table(d$family == families[i], d$p_adj < p_val_thr & d$est < est_thr)
     }  
     results[i, 'n_sig_family'] <- x[2,2]
     
